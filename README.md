@@ -38,23 +38,33 @@ Setup Instructions
 
 Open the .env file and update the following details according to your local setup:
 
-`APP_NAME=Laravel   ` 
-`APP_ENV=local  `
-`APP_KEY=  ` 
-`APP_DEBUG=true`
-` APP_URL=http://localhost `
-` DB_CONNECTION=mysql` 
-`DB_HOST=127.0.0.1` 
-`DB_PORT=3306`  
+`APP_NAME=Laravel   `   
+
+`APP_ENV=local  `   
+
+`APP_KEY=  `    
+
+`APP_DEBUG=true`   
+
+`APP_URL=http://localhost `  
+
+`DB_CONNECTION=mysql`   
+
+`DB_HOST=127.0.0.1`  
+
+`DB_PORT=3306`   
+
 `DB_DATABASE=git_testing_app`  
-`DB_USERNAME=root` 
-`DB_PASSWORD=   `
+
+`DB_USERNAME=root`   
+
+`DB_PASSWORD=   `  
 
 ### 4\. Generate Application Key
 
 `   php artisan key:generate   `
 
-### 5\. Run Database Migrations (Optional: Seed the Database)
+### 5\. Run Database Migrations
 
 `   php artisan migrate   `
 
@@ -66,3 +76,9 @@ Open the .env file and update the following details according to your local setu
 By default, your application will be available at:
 
 `   http://127.0.0.1:8000   `
+
+### 6\. Check the test route
+
+`   http://127.0.0.1:8000/test   `
+
+Check if the word "Hello World!" appears in the screen.
